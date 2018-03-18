@@ -1,5 +1,8 @@
 # crm-utils
-A utility library comprising many common, reusable functions.
+A Java 8 utility library comprising many common, reusable functions.
+
+## Pre-requisites
+* Java JDK 8+
 
 ## Installation
 Add the following depency to your Maven project pom.xml

@@ -3,10 +3,10 @@
 
 	<groupId>com.github.final60</groupId>
 	<artifactId>crm-utils</artifactId>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>0.0.4-SNAPSHOT</version>
 
 	<name>crm-utils</name>
-	<description>General Java 1.7 utils library for common reusable functionality.</description>
+	<description>General Java 1.8 utils library for common reusable functionality.</description>
 	<url>https://github.com/final60/crm-utils/</url>
 
 	<licenses>

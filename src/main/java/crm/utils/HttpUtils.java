@@ -92,26 +92,3 @@ public abstract class HttpUtils {
 	}
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

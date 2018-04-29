@@ -82,6 +82,23 @@ public abstract class MapUtils {
 		return map;
 	}
 	
+	public static final Map<String, String> parseStringMap(String input, String delimiter, String pairSeperator) {
+	    ValidationUtils.validateParam(input, "input");
+	    ValidationUtils.validateParam(delimiter, "delimiter");
+	    
+	    Map<String, String> map = new HashMap<String, String>();
+	    
+	    String[] entries = input.split(delimiter);
+	    for (String entry : entries)
+	    {
+	      String key = entry.split(pairSeperator)[0];
+	      String value = entry.split(pairSeperator)[1];
+	      
+	      map.put(key, value);
+	    }
+	    return map;
+	  }
+	
 	/**
 	 * Parse a String into a Map consisting of a String key and value
 	 * Expects the input in format <em>'key1=value,key2=value,key3=value'</em>.<br>

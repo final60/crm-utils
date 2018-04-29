@@ -64,7 +64,7 @@ public abstract class FileUtils {
 	/**
 	 * Deletes a specific file.
 	 * 
-	 * @param absolutePath The absolute path, including the file name, that should be deleted.
+	 * @param absolutePath The absolute path, including the file name that should be deleted.
 	 */
 	public static final void deleteFile(String absolutePath) {
 		

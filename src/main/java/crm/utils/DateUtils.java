@@ -16,7 +16,7 @@ public abstract class DateUtils {
 
 	/**
 	 * Converts a String date value from one date format to another. Useful for
-	 * easily converted unix dates to human-readable equivalent.<br>
+	 * easily converting unix dates to human-readable equivalent.<br>
 	 * For example:<br><br>
 	 * <em>formatDateString("yyyy-MM-dd hh:mm:ss", "d MMM, yyyy", date.toString());</em>
 	 * 

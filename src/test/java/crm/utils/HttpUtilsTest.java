@@ -19,7 +19,6 @@ public class HttpUtilsTest extends TestCase {
 			
 			Entry<Integer, String> post = HttpUtils.post("https://stackoverflow.com/", "", null, HttpUtils.METHOD_POST);
 			assertEquals(200, post.getKey().intValue());
-			System.out.println(post.getValue());
 			
 		} catch (IOException e) {
 			e.printStackTrace();
@@ -33,7 +32,6 @@ public class HttpUtilsTest extends TestCase {
 			
 			Entry<Integer, String> post = HttpUtils.post("https://stackoverflow.com/", "", null, HttpUtils.METHOD_GET);
 			assertEquals(200, post.getKey().intValue());
-			System.out.println(post.getValue());
 			
 		} catch (IOException e) {
 			e.printStackTrace();
